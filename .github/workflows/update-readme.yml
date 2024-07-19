@@ -47,7 +47,7 @@ jobs:
           echo "## Índice de Landing Pages" >> README.md
           echo "" >> README.md
           for branch in ${{ steps.get_branches.outputs.branches }}; do
-            echo "- [$branch](https://github.com/Kaduh15/landing-pages/tree/$branch)" >> README.md
+            echo "- [$branch](https://github.com/GirardiMatheus/Rocketseat-Nodejs/tree/$branch)" >> README.md
           done
           echo "" >> README.md
           echo "## Como Navegar no Repositório" >> README.md
