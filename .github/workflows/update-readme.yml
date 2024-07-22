@@ -40,11 +40,11 @@ jobs:
     - name: Update README.md
       run: |
           git pull origin main  # Atualiza sua branch local com as mudanças remotas
-          echo "# Landing Pages Repository" > README.md
+          echo "# Bem vindo ao repositório de estudos Nodejs" > README.md
           echo "" >> README.md
-          echo "Bem-vindo ao repositório de Landing Pages! Este repositório foi criado para armazenar todas as landing pages que eu desenvolver como forma de estudo de front-end. Cada landing page estará em uma branch separada, e você encontrará versões diferentes da mesma landing page utilizando tecnologias distintas." >> README.md
+          echo "Bem-vindo ao repositório de Nodejs! Este repositório foi criado para armazenar todos os projetos e desafios desenvolvidos ao longo do curso Nodejs da Rocketseat." >> README.md
           echo "" >> README.md
-          echo "## Índice de Landing Pages" >> README.md
+          echo "## Índice de Projetos" >> README.md
           echo "" >> README.md
           for branch in ${{ steps.get_branches.outputs.branches }}; do
             echo "- [$branch](https://github.com/GirardiMatheus/Rocketseat-Nodejs/tree/$branch)" >> README.md
@@ -52,15 +52,8 @@ jobs:
           echo "" >> README.md
           echo "## Como Navegar no Repositório" >> README.md
           echo "" >> README.md
-          echo "1. **Branches:** Cada landing page tem sua própria branch principal. Navegue entre as branches para ver os diferentes projetos." >> README.md
-          echo "2. **Versões:** Dentro de cada branch, você encontrará diferentes versões da landing page, cada uma utilizando uma tecnologia diferente." >> README.md
-          echo "## Contribuições" >> README.md
-          echo "" >> README.md
-          echo "Se você deseja contribuir com este repositório, sinta-se à vontade para criar um pull request. Toda contribuição é bem-vinda!" >> README.md
-          echo "" >> README.md
-          echo "---" >> README.md
-          echo "" >> README.md
-          echo "Happy coding! 😊" >> README.md
+          echo "1. **Branches:** Cada Projeto tem sua própria branch principal. Navegue entre as branches para ver os diferentes projetos." >> README.md
+          echo "2. **Versões:** Dentro de cada branch, você encontrará diferentes versões de Projetos." >> README.md
     
     - name: Commit changes
       run: |
