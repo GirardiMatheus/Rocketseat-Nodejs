@@ -5,6 +5,7 @@ Bem-vindo ao repositório de Nodejs! Este repositório foi criado para armazenar
 ## Índice de Projetos
 
 - [01-Fundamentos-nodejs](https://github.com/GirardiMatheus/Rocketseat-Nodejs/tree/01-Fundamentos-nodejs)
+- [02-Rotas-e-HTTP](https://github.com/GirardiMatheus/Rocketseat-Nodejs/tree/02-Rotas-e-HTTP)
 
 ## Como Navegar no Repositório
 
