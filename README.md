@@ -6,6 +6,7 @@ Bem-vindo ao repositório de Nodejs! Este repositório foi criado para armazenar
 
 - [01-Fundamentos-nodejs](https://github.com/GirardiMatheus/Rocketseat-Nodejs/tree/01-Fundamentos-nodejs)
 - [02-Rotas-e-HTTP](https://github.com/GirardiMatheus/Rocketseat-Nodejs/tree/02-Rotas-e-HTTP)
+- [03-Implementando-o-SOLID](https://github.com/GirardiMatheus/Rocketseat-Nodejs/tree/03-Implementando-o-SOLID)
 
 ## Como Navegar no Repositório
 
